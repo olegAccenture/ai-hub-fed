@@ -1,0 +1,20 @@
+{
+    "name": "a11y-checker",
+    "description": "Comprehensive accessibility testing plugin for GitHub Copilot CLI. Runs WCAG 2.2 (A/AA/AAA), EN 301 549, and RaWeb compliance checks against web pages and components using a parallel phased architecture with Playwright browser automation.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Stellantis A11y Workshop"
+    },
+    "license": "MIT",
+    "keywords": [
+        "accessibility",
+        "a11y",
+        "wcag",
+        "testing",
+        "playwright"
+    ],
+    "category": "testing",
+    "agents": "agents/",
+    "skills": "skills/",
+    "mcpServers": ".mcp.json"
+}

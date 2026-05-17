@@ -1,0 +1,27 @@
+{
+    "section": "interactive-flow-1",
+    "label": "Login Form Submission",
+    "flow_title": "Login Form Submission",
+    "total": 8,
+    "passed": 5,
+    "failed": 2,
+    "skipped": 1,
+    "issues": [
+        {
+            "id": "IF1-FORMS-003",
+            "sev": "Critical",
+            "wcag": "1.3.1",
+            "check": "Form labels",
+            "detail": "Password field has no visible label, only placeholder text",
+            "selector": "input[type='password']"
+        },
+        {
+            "id": "IF1-ERR-001",
+            "sev": "Major",
+            "wcag": "3.3.1",
+            "check": "Error identification",
+            "detail": "Validation error not announced to screen readers on submit",
+            "selector": ".error-message"
+        }
+    ]
+}

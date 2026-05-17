@@ -1,0 +1,19 @@
+{
+    "name": "ai-hub-fed",
+    "owner": {
+        "name": "AI Hub FED",
+        "email": "oleg.burlaka@accenture.com"
+    },
+    "metadata": {
+        "description": "Curated plugins for FED Team",
+        "version": "1.0.0"
+    },
+    "plugins": [
+        {
+            "name": "a11y-checker",
+            "description": "Comprehensive accessibility testing plugin. Runs 264 checks across 20 sections (WCAG 2.2 A/AA/AAA, EN 301 549, RaWeb) against live web pages using a parallel phased architecture with Playwright Extension browser automation. Produces a scorecard and severity-grouped remediation guides.",
+            "version": "2.0.0",
+            "source": "./plugin/a11y-checker"
+        }
+    ]
+}
