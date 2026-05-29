@@ -5,7 +5,7 @@ A curated marketplace of GitHub Copilot CLI plugins for the FED team. Each plugi
 ## How to register this marketplace
 
 ```sh
-copilot plugin marketplace add olegAccenture/ai-hub-fed
+copilot plugin marketplace add toolchain-hub/ai-hub-fed
 ```
 
 Verify it was added:
@@ -39,7 +39,7 @@ copilot plugin install a11y-checker@ai-hub-fed
 Or install directly from source:
 
 ```sh
-copilot plugin install olegAccenture/ai-hub-fed:plugin/a11y-checker
+copilot plugin install toolchain-hub/ai-hub-fed:plugin/a11y-checker
 ```
 
 #### Verify installation
